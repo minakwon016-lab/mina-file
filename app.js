@@ -68,7 +68,7 @@ function frame(){
   if(acts)setAct(Math.min(aimgs.length-1,Math.floor(prog(acts,vh)*aimgs.length)));
   gals.forEach(function(gal){var t=$('.gal__t',gal),gr=gal.getBoundingClientRect(),gp=clamp((vh-gr.top)/(vh+gr.height),0,1);
     t.style.transform='translate3d('+(-gp*Math.max(0,t.scrollWidth-vw*.8)+vw*.05)+'px,0,0)'});
-  pars.forEach(function(el){var r=el.getBoundingClientRect();if(r.bottom<-200||r.top>vh+200)return;var c=(r.top+r.height/2-vh/2);
+  if(!mob)pars.forEach(function(el){var r=el.getBoundingClientRect();if(r.bottom<-200||r.top>vh+200)return;var c=(r.top+r.height/2-vh/2);
     if(el.classList.contains('pola'))el.style.setProperty('--py',(c*+el.dataset.par)+'px');else el.style.transform='translate3d(0,'+(c*+el.dataset.par)+'px,0)'});
   if(!mob)stack.forEach(function(el,i){var n=stack[i+1];if(!n){el.style.setProperty('--dim',0);return}var t=n.getBoundingClientRect().top;el.style.setProperty('--dim',clamp(1-t/vh,0,1)*.55)});
 }
