@@ -39,4 +39,9 @@
 - 걷기대회 필라테스 기반 부상방지 운동 프로그램
 
 ## 페이지
-- [홈](https://kwonmina-coach.vercel.app/): 소개, 프로그램, 활동, 이력, 레슨 안내, 자주 묻는 질문
+- [홈](https://kwonmina-coach.vercel.app/): 권미나 운동지도자 소개
+- [프로그램](https://kwonmina-coach.vercel.app/programs): 체형교정, 필라테스, 웨이트 & 바디라인, 골프 컨디셔닝, 명상 힐링 프로그램 상세
+- [활동](https://kwonmina-coach.vercel.app/activities): 브랜드 협업 클래스, 대학 특강, 포징 세미나, 행사 진행 내역
+- [이력](https://kwonmina-coach.vercel.app/about): 자격 · 교육 · 수상 이력
+- [레슨 · 문의](https://kwonmina-coach.vercel.app/contact): 전화, 이메일, 인스타그램 문의 방법
+- [자주 묻는 질문](https://kwonmina-coach.vercel.app/faq): 수강·프로그램·문의 관련 질문 9가지
