@@ -41,7 +41,7 @@ body[data-theme=dark] .hdr,body.menu .hdr{color:#f6f3ef}
 .hdr__logo{left:var(--gut);top:28px;transition:transform .3s var(--ease-ui)}
 .hdr__logo:hover{transform:scale(1.08)}
 .hdr__logo svg{display:block}
-.hdr__name{left:50%;top:34px;transform:translateX(-50%);font:400 22px/24px var(--disp);letter-spacing:-.01em;white-space:nowrap;transition:opacity .8s var(--ease-editorial)}
+.hdr__name{left:50%;top:34px;transform:translateX(-50%);font:700 24px/24px var(--disp);letter-spacing:-.01em;white-space:nowrap;transition:opacity .8s var(--ease-editorial)}
 body.scrolled .hdr__name{opacity:0}
 .hdr__menu{right:calc(var(--gut) - 16px);top:29px;width:64px;height:46px}
 .hdr__menu i{position:absolute;left:22px;width:26px;height:4px;background:currentColor;transform:skewX(-32deg);transition:transform .38s var(--ease-reveal),top .38s var(--ease-reveal)}
