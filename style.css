@@ -286,3 +286,8 @@ body.ready .hero .hero__img{opacity:1;transform:translateX(-50%)}
   .rv{opacity:1;transform:none}
   html{scroll-behavior:auto}
 }
+
+.ig{display:inline-block;margin-top:10px;font-weight:800;border-bottom:1px solid currentColor;transition:color .25s var(--ease-ui)}
+.ig:hover{color:var(--purple-rich)}
+.info dl{grid-template-columns:repeat(4,1fr)}
+@media(max-width:820px){.info dl{grid-template-columns:1fr}}

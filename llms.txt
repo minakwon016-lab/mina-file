@@ -5,12 +5,9 @@
 ## 기본 정보
 - 이름: 권미나 (Kwon Mina)
 - 직함: 운동지도자 · 필라테스 강사 · 피지컬 코치
-- 소속: 한그루 필라테스 양재점 대표
-- 수업 장소: 한그루 필라테스 양재점 · 서울 양재 (상세 주소 준비 중)
 - 전화: 010-5812-5161
 - 이메일: pilamina@naver.com
-- 레슨 가능 시간: 준비 중 (전화 안내)
-- 레슨 비용: 준비 중 (프로그램·횟수별 전화 안내)
+- 인스타그램: https://www.instagram.com/mina_movement (@mina_movement)
 - 홈페이지: https://kwonmina-coach.vercel.app/
 
 ## 지도 영역
