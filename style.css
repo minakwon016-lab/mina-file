@@ -246,6 +246,8 @@ body.ready .hero .hero__img{opacity:1;transform:translateX(-50%)}
   .quote{height:300vh}
   .pol{width:66vw;padding:8px}
   .acts .ghosth{top:68px;font-size:17.5vw}
+  .quote h2{font-size:15vw}
+  .bigh,.bigh--c{font-size:12.5vw;line-height:1}
   .acts__imgs{top:150px;bottom:auto;height:42vh;max-height:92vw;max-width:none}
   .acts__imgs img{border-width:6px}
   .acts__left{left:24px;right:24px;width:auto;top:auto;flex-direction:column-reverse;gap:14px;background:var(--smoke);border-radius:14px;padding:20px 22px}
@@ -267,12 +269,13 @@ body.ready .hero .hero__img{opacity:1;transform:translateX(-50%)}
   .info dl{grid-template-columns:1fr}
   .info dl>div{min-height:0}
   .faq details p{padding-right:0}
-  .ftr{display:block;padding:120px 24px 0}
-  .ftr__panel{position:relative;left:auto;top:auto;bottom:auto;width:auto;margin:0 -8px 24px;animation:none;order:3}
+  .ftr{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;padding:120px 24px 0}
+  .ftr__c{order:1}.mq--f{order:2}
+  .ftr__panel{position:relative;left:auto;top:auto;bottom:auto;width:auto;margin:24px -8px 24px;animation:none;order:3}
   .ftr__panel ul{margin-top:24px;margin-bottom:24px}
   .ftr__c{text-align:left;padding:0 0 36px}
   .ftr__sig{margin:0 0 4px;width:96px}
-  .ftr h2{font-size:19vw}
+  .ftr h2{font-size:14.5vw;line-height:.95}
   .ftr__img{height:auto;width:118vw;right:-52vw;top:40px;bottom:auto;opacity:.55}
   .pill--cta{font-size:18px}
   .mq--f{position:relative;left:auto;bottom:auto;margin:0 -24px}
