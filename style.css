@@ -615,3 +615,4 @@ br.sb{display:inline}
 }
 @media(max-width:360px){.ph h1,.ph--about h1{font-size:10vw}.cta__row .v{font-size:6.2vw}.hero__intro{width:190px}}
 .ig{white-space:nowrap}
+@media(min-width:821px){.hero__intro{margin-top:-64px}}
