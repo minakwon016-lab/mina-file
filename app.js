@@ -6,13 +6,14 @@ var ease=function(t){return 1-Math.pow(1-t,3)};
 var L=$('#loader'),fill=$('#loaderFill'),pct=$('#loaderPct'),p=0,loaded=false,t0=performance.now();
 addEventListener('load',function(){loaded=true});
 setTimeout(function(){loaded=true},2500);
-(function tick(){
+var done=false;function finish(){if(done)return;done=true;clearInterval(iv);pct.textContent='100%';fill.style.clipPath='inset(0)';setTimeout(function(){L.classList.add('done');b.classList.add('ready');setTimeout(function(){L.remove()},1100)},250)}
+var iv=setInterval(function(){
   var target=loaded?100:Math.min(86,(performance.now()-t0)/14);
-  p+=Math.max(1,(target-p)*.12); if(p>target)p=target;
+  p+=Math.max(2,(target-p)*.2); if(p>target)p=target;
   var v=Math.round(p); pct.textContent=v+'%'; fill.style.clipPath='inset('+(100-v)+'% 0 0 0)';
-  if(v>=100){setTimeout(function(){L.classList.add('done');b.classList.add('ready');setTimeout(function(){L.remove()},1100)},250);return}
-  requestAnimationFrame(tick);
-})();
+  if(v>=100)finish();
+},30);
+setTimeout(finish,4000);
 /* menu */
 var mb=$('#menuBtn'),nav=$('#nav');nav.hidden=false;
 function menu(o){b.classList.toggle('menu',o);b.classList.toggle('lock',o);mb.setAttribute('aria-expanded',o);mb.setAttribute('aria-label',o?'메뉴 닫기':'메뉴 열기')}
